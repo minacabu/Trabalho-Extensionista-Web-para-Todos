@@ -28,10 +28,6 @@ GUIA-ADMINISTRACAO.md   Guia de atualização do site
 
 Link "ir para o conteúdo", navegação por teclado com foco visível, hierarquia de títulos, campos com rótulo, erros em texto (não só cor), contraste alto, `lang="pt-BR"` e menu adaptado ao celular.
 
-## Pendências (dependem da Kj Tech)
-
-- Confirmar o número de WhatsApp da loja e preencher em `js/config.js` (ativa o envio do orçamento pela conversa).
-- Publicar informações de garantia somente após confirmação oficial.
 
 ## Privacidade
 
