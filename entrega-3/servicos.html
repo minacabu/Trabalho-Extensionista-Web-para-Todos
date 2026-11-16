@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Serviços | Kj Tech – Assistência Técnica</title>
+<meta name="description" content="Lista de serviços de assistência técnica da Kj Tech, com busca por palavra-chave.">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo principal</a>
+<header class="topo">
+  <div class="wrap topo-in">
+    <a class="marca" href="index.html"><img src="img/logo.svg" alt="" width="40" height="40"><span>Kj Tech</span></a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav aria-label="Navegação principal"><ul id="menu" class="menu"><li><a href="index.html">Início</a></li><li><a href="servicos.html" aria-current="page">Serviços</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="contato.html">Contato</a></li><li><a href="orcamento.html">Solicitar orçamento</a></li></ul></nav>
+  </div>
+</header>
+<main id="conteudo">
+
+<section class="wrap bloco">
+  <h1>Serviços</h1>
+  <p>Procure o problema do seu aparelho. Os valores dependem do modelo e são informados no orçamento.</p>
+  <div class="campo">
+    <label for="busca">Buscar serviço</label>
+    <input id="busca" type="search" placeholder="Ex.: tela, bateria, água" autocomplete="off">
+  </div>
+  <p id="resultado" role="status" aria-live="polite" class="peq"></p>
+  <ul class="cards" id="lista-servicos">
+    <li class="card" data-busca="tela quebrada display touch imagem"><h2>Troca de tela</h2><p>Tela trincada, manchada, sem imagem ou com toque falhando.</p></li>
+    <li class="card" data-busca="bateria descarrega desliga inchada"><h2>Troca de bateria</h2><p>Bateria que dura pouco, desliga sozinha ou está estufada.</p></li>
+    <li class="card" data-busca="carga carregar conector usb tipo-c lightning"><h2>Conector de carga</h2><p>Limpeza ou troca do conector quando o aparelho não carrega.</p></li>
+    <li class="card" data-busca="software sistema travando formatação atualização lento"><h2>Software e sistema</h2><p>Aparelho lento, travando ou com falha após atualização.</p></li>
+    <li class="card" data-busca="água líquido molhou oxidação"><h2>Aparelho molhado</h2><p>Avaliação e limpeza após contato com líquidos. Quanto antes, melhor.</p></li>
+    <li class="card" data-busca="alto-falante microfone câmera áudio som"><h2>Áudio e câmera</h2><p>Problemas de som, microfone ou câmera.</p></li>
+  </ul>
+  <p id="vazio" class="aviso" hidden>Não encontramos esse serviço na lista. Fale com a loja: pode ser que ele também seja atendido.</p>
+  <p class="peq">Informações sobre garantia serão publicadas aqui após confirmação oficial da Kj Tech.</p>
+</section>
+</main>
+<footer class="rodape">
+  <div class="wrap">
+    <p><strong>Kj Tech</strong> – Assistência técnica de aparelhos eletrônicos, bairro do Ipsep, Recife-PE.</p>
+    <p>Telefone/WhatsApp: <span data-contato="telefone">a confirmar</span> · Endereço: <span data-contato="endereco">a confirmar</span></p>
+    <p class="peq">Projeto extensionista “Web para Todos” – Programação para Internet, Universidade Universo Recife, 2026.2. Os dados enviados nos formulários não são armazenados nem transmitidos.</p>
+  </div>
+</footer>
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
