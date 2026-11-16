@@ -2,7 +2,7 @@
 
 Para quem cuida do site da Kj Tech. Não é preciso saber programar: basta um editor de texto simples (como o Bloco de Notas ou o VS Code). **Faça uma cópia da pasta antes de mexer.**
 
-## 1. Atualizar contatos (telefone, endereço, horário, WhatsApp)
+## 1. Atualizar contatos (telefone, horário, WhatsApp)
 1. Abra o arquivo `js/config.js`.
 2. Escreva os dados entre as aspas, por exemplo `telefone: "(81) 90000-0000",`.
 3. O WhatsApp vai só com números, com 55 e DDD: `whatsapp: "5581900000000"`.
@@ -13,11 +13,10 @@ Para quem cuida do site da Kj Tech. Não é preciso saber programar: basta um ed
 2. Procure o texto que quer mudar e troque só as palavras, sem apagar os sinais `<` e `>`.
 3. Salve e recarregue a página no navegador.
 
-## 3. Substituir imagens e a logo
+## 3. Substituir imagens
 1. Coloque a nova imagem na pasta `img/`.
-2. Para a logo, salve como `logo.svg` (ou ajuste o nome nos arquivos `.html`).
-3. Toda imagem com informação precisa de descrição: `<img src="img/foto.jpg" alt="Descrição curta da imagem">`. Imagens só decorativas usam `alt=""`.
-4. Use apenas imagens próprias, autorizadas ou de uso livre.
+2. Insira a imagem na página com `<img>`; toda imagem com informação precisa de descrição: `<img src="img/foto.jpg" alt="Descrição curta da imagem">`. Imagens só decorativas usam `alt=""`.
+3. Use apenas imagens próprias, autorizadas ou de uso livre.
 
 ## 4. Cadastrar ou remover serviços
 Abra `servicos.html` e localize a lista `<ul id="lista-servicos">`. Cada serviço é um bloco assim:

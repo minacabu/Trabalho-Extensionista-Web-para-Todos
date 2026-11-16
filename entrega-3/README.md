@@ -18,9 +18,9 @@ sobre.html        Sobre a Kj Tech e o projeto
 contato.html      Contato
 orcamento.html    Formulário de solicitação de orçamento
 css/style.css     Estilos (responsivo)
-js/config.js      Dados da loja (telefone, endereço, horário, WhatsApp)
+js/config.js      Dados da loja (telefone, horário, WhatsApp)
 js/main.js        Menu, busca de serviços e validação do formulário
-img/              Imagens e logotipo
+img/              Imagens do site
 GUIA-ADMINISTRACAO.md   Guia de atualização do site
 ```
 
@@ -30,8 +30,7 @@ Link "ir para o conteúdo", navegação por teclado com foco visível, hierarqui
 
 ## Pendências (dependem da Kj Tech)
 
-- Confirmar telefone, endereço, horário e WhatsApp e preencher em `js/config.js`.
-- Receber a logo oficial (o logotipo atual é provisório) e autorização de uso.
+- Confirmar o número de WhatsApp da loja e preencher em `js/config.js` (ativa o envio do orçamento pela conversa).
 - Publicar informações de garantia somente após confirmação oficial.
 
 ## Privacidade

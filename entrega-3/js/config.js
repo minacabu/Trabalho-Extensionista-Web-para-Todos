@@ -1,11 +1,11 @@
 /*
  * DADOS DA KJ TECH - edite apenas este arquivo para atualizar contatos.
- * Deixe "" (vazio) enquanto o dado não estiver confirmado pela loja.
- * whatsapp: somente números com DDI e DDD, ex.: "5581900000000"
+ * Deixe "" (vazio) para esconder o dado e mostrar "a confirmar".
+ * whatsapp: somente números com DDI e DDD, ex.: "5581900000000".
+ *           Enquanto estiver vazio, o formulário de orçamento só valida os campos.
  */
 window.KJ_CONFIG = {
-  telefone: "",
-  endereco: "",
-  horario: "",
+  telefone: "(81) 9156-7969",
+  horario: "Horário comercial",
   whatsapp: ""
 };
