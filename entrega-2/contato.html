@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contato e localização da Kj Tech – Ipsep.">
+  <title>Kj Tech – Assistência Técnica | Contato</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="link-pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="cabecalho">
+    <div class="container">
+      <a class="marca" href="index.html">Kj <span>Tech</span></a>
+      <button class="menu-botao" id="menu-botao" aria-expanded="false" aria-controls="menu-principal">Menu</button>
+      <nav class="menu" id="menu-principal" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html" aria-current="page">Contato</a></li>
+          <li><a href="orcamento.html">Solicitar orçamento</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <div class="titulo-pagina">
+      <div class="container"><h1>Contato</h1></div>
+    </div>
+
+    <section aria-labelledby="titulo-canais">
+      <div class="container">
+        <h2 id="titulo-canais">Canais de atendimento e localização</h2>
+        <p class="aviso">
+          <strong>Atenção (equipe do projeto):</strong> preencha os dados abaixo somente após a
+          confirmação e autorização da Kj Tech. Remova este aviso depois.
+        </p>
+        <br>
+        <div class="grade">
+          <article class="card">
+            <h3>Telefone / WhatsApp</h3>
+            <p>[PREENCHER – canal oficial autorizado]</p>
+          </article>
+          <article class="card">
+            <h3>Endereço</h3>
+            <p>Ipsep, Recife – PE. [PREENCHER endereço completo autorizado]</p>
+          </article>
+          <article class="card">
+            <h3>Horário de atendimento</h3>
+            <p>[PREENCHER – horário oficial]</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="titulo-form">
+      <div class="container">
+        <h2 id="titulo-form">Envie uma mensagem</h2>
+        <form class="formulario" data-validar novalidate>
+          <p class="ajuda">Campos com <span class="obrigatorio" style="color:#b00020">*</span> são obrigatórios. Usamos seus dados apenas para responder a esta mensagem.</p>
+
+          <div class="campo">
+            <label for="nome">Nome <span class="obrigatorio" aria-hidden="true">*</span></label>
+            <input type="text" id="nome" name="nome" autocomplete="name" required aria-describedby="nome-erro" data-min="3" data-msg-obrigatorio="Informe seu nome.">
+            <p class="erro" id="nome-erro" aria-live="polite"></p>
+          </div>
+
+          <div class="campo">
+            <label for="contato">Telefone ou e-mail <span class="obrigatorio" aria-hidden="true">*</span></label>
+            <input type="text" id="contato" name="contato" required aria-describedby="contato-ajuda contato-erro" data-tipo="contato" data-msg-obrigatorio="Informe um telefone ou e-mail para retorno.">
+            <p class="ajuda" id="contato-ajuda">Exemplo: 81 99999-9999 ou nome@email.com</p>
+            <p class="erro" id="contato-erro" aria-live="polite"></p>
+          </div>
+
+          <div class="campo">
+            <label for="mensagem">Mensagem <span class="obrigatorio" aria-hidden="true">*</span></label>
+            <textarea id="mensagem" name="mensagem" rows="5" required aria-describedby="mensagem-erro" data-min="10" data-msg-obrigatorio="Escreva sua mensagem."></textarea>
+            <p class="erro" id="mensagem-erro" aria-live="polite"></p>
+          </div>
+
+          <div class="campo campo-check">
+            <label for="aceite-contato">
+              <input type="checkbox" id="aceite-contato" name="aceite" required aria-describedby="aceite-contato-erro" data-msg-obrigatorio="Marque a caixa para concordar com o uso dos dados.">
+              <span>Concordo em informar meus dados para receber o retorno da assistência.</span>
+            </label>
+            <p class="erro" id="aceite-contato-erro" aria-live="polite"></p>
+          </div>
+
+          <button type="submit" class="botao botao-azul">Enviar mensagem</button>
+          <div class="mensagem oculto" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>&copy; <span id="ano">2026</span> Kj Tech – Ipsep. Projeto extensionista “Web para Todos” – Universidade Universo Recife.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
